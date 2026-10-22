@@ -120,5 +120,4 @@ function App() {
   );
 }
 
-const jsggfhnkn = 123;
 export default App;
