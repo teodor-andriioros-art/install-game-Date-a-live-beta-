@@ -119,5 +119,5 @@ function App() {
     </>
   );
 }
-
+const badVariable = ;
 export default App;
