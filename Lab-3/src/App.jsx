@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-    const = 123;
+
   return (
     <>
     const testVar = 456;
@@ -119,5 +119,5 @@ function App() {
     </>
   );
 }
-const badVariable = ;
+const badVae = ;
 export default App;
