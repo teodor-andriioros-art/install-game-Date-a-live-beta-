@@ -1,0 +1,29 @@
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+  padding: 24px 16px;
+  background: #000;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 4px;
+  color: var(--text);
+  font-family: var(--font-condensed);
+  font-size: 1.05rem;
+}
+
+.support:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+}
+
+.divider {
+  width: 1.5px;
+  height: 36px;
+  background: var(--line);
+}

@@ -1,0 +1,51 @@
+.age {
+  margin: 0;
+  padding: 14px 16px 16px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 12px;
+}
+
+.label {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  margin-bottom: 10px;
+  font-family: var(--font-tech);
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.label svg {
+  width: 34px;
+  height: 34px;
+}
+
+.selects {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.select {
+  padding: 11px 14px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.05rem;
+}
+
+.select option {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 520px) {
+  .selects {
+    grid-template-columns: 1fr;
+  }
+}
