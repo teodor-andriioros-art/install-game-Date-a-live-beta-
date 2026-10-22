@@ -1,0 +1,77 @@
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.siteTitle {
+  padding: 22px 16px;
+  text-align: center;
+}
+
+.siteTitle h1 {
+  font-family: var(--font-tech);
+  font-weight: 700;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  letter-spacing: 0.02em;
+}
+
+.card {
+  padding: 36px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.user {
+  width: 46px;
+  height: 46px;
+}
+
+.divider {
+  width: 1.5px;
+  height: 46px;
+  background: var(--line);
+}
+
+.head h2 {
+  font-family: var(--font-tech);
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+
+.hint {
+  max-width: 380px;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: #eee;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer svg {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,10 @@
+.panel {
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: #000;
+}
+
+.strong {
+  border-color: var(--line-strong);
+  border-radius: 4px;
+}

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    const testVar = 456;
+      const testVar = 456;
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -30,9 +30,7 @@ function App() {
           Count is {count}
         </button>
       </section>
-
       <div className="ticks"></div>
-
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
@@ -113,7 +111,6 @@ function App() {
           </ul>
         </div>
       </section>
-
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
