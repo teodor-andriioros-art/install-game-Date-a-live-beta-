@@ -1,0 +1,38 @@
+.field {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 14px 18px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 10px;
+  background: #000;
+}
+
+.field:focus-within {
+  border-color: var(--red);
+}
+
+.field svg {
+  width: 28px;
+  height: 28px;
+  flex: none;
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: var(--muted);
+}
+
+.trailing {
+  display: flex;
+  color: var(--muted);
+}
