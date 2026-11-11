@@ -1,0 +1,27 @@
+.stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.full,
+.half {
+  font-size: 1.5rem;
+}
+
+.full {
+  color: var(--red);
+}
+
+.half {
+  background: linear-gradient(90deg, var(--red) 50%, #4a4a4a 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.value {
+  font-family: var(--font-condensed);
+  font-size: 0.95rem;
+}
