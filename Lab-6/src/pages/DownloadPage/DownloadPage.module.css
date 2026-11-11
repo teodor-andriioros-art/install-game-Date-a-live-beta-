@@ -1,0 +1,49 @@
+.page {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 16px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  padding: 18px;
+}
+
+.logo img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.buttons > * {
+  min-width: 190px;
+}
+
+.ad {
+  width: 100%;
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  font-size: 2.6rem;
+  color: #fff;
+}
+
+@media (max-width: 520px) {
+  .buttons > * {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.form {
+  width: 100%;
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.mailTitle {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-left: 26px;
+  margin-top: 4px;
+  font-family: var(--font-tech);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.mailTitle svg {
+  width: 52px;
+  height: 40px;
+}
+
+.submit {
+  margin-top: 12px;
+}
